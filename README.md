@@ -1,16 +1,4 @@
 # pytorch_OneVersusRest_Ner
-延申：
-- 一种基于globalpointer的命名实体识别：https://github.com/taishan1994/pytorch_GlobalPointer_Ner
-- 一种基于TPLinker_plus的命名实体识别：https://github.com/taishan1994/pytorch_TPLinker_Plus_Ner
-- 一种基于bert_bilstm_crf的命名实体识别：https://github.com/taishan1994/pytorch_bert_bilstm_crf_ner
-- 一种级联Bert用于命名实体识别，解决标签过多问题：https://github.com/taishan1994/pytorch_Cascade_Bert_Ner
-- 一种多头选择Bert用于命名实体识别：https://github.com/taishan1994/pytorch_Multi_Head_Selection_Ner
-- 中文命名实体识别最新进展：https://github.com/taishan1994/awesome-chinese-ner
-- 信息抽取三剑客：实体抽取、关系抽取、事件抽取：https://github.com/taishan1994/chinese_information_extraction
-- 一种基于机器阅读理解的命名实体识别：https://github.com/taishan1994/BERT_MRC_NER_chinese
-- W2NER：命名实体识别最新sota：https://github.com/taishan1994/W2NER_predict
-
-****
 
 基于pytorch的one vs rest中文命名实体识别。
 
@@ -89,3 +77,15 @@ micro-f1       0.91      0.89      0.90      1601
 # 补充
 
 还可以进一步的进行修改，比如参考：https://github.com/taishan1994/pytorch_Cascade_Bert_Ner 设计一个多标签分类的任务来判别句子中是否存在某类实体。又或者是参考机器阅读理解，将标签的信息融合到具体的某类实体中。而且，我们可以根据需要去针对于某类实体进行调整，以达到相对好的效果，比如增加一些数据、使用其它的损失等等。
+
+# 延申
+- 一种基于globalpointer的命名实体识别：https://github.com/taishan1994/pytorch_GlobalPointer_Ner
+- 一种基于TPLinker_plus的命名实体识别：https://github.com/taishan1994/pytorch_TPLinker_Plus_Ner
+- 一种基于bert_bilstm_crf的命名实体识别：https://github.com/taishan1994/pytorch_bert_bilstm_crf_ner
+- 一种级联Bert用于命名实体识别，解决标签过多问题：https://github.com/taishan1994/pytorch_Cascade_Bert_Ner
+- 一种多头选择Bert用于命名实体识别：https://github.com/taishan1994/pytorch_Multi_Head_Selection_Ner
+- 中文命名实体识别最新进展：https://github.com/taishan1994/awesome-chinese-ner
+- 信息抽取三剑客：实体抽取、关系抽取、事件抽取：https://github.com/taishan1994/chinese_information_extraction
+- 一种基于机器阅读理解的命名实体识别：https://github.com/taishan1994/BERT_MRC_NER_chinese
+- W2NER：命名实体识别最新sota：https://github.com/taishan1994/W2NER_predict
+
